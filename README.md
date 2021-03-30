@@ -1,0 +1,1 @@
+# smart-platform-services_slim-starter
