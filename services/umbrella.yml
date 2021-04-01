@@ -18,7 +18,7 @@ services:
             restart_policy:
                 condition: any
     umbrella:
-        image: profirator/api-umbrella:0.15.4-pre2
+        image: profirator/api-umbrella:0.15.4
         depends_on:
             - mongo
             - umbrella_elasticsearch
